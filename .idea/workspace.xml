@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fcbe294-5edd-4bb3-91ec-b98aeaa44808" name="Changes" comment="" />
+    <list default="true" id="6fcbe294-5edd-4bb3-91ec-b98aeaa44808" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/myapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/static/images/Kings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/add_Patient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/edit_patient.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapp/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/templates/Patient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_Patients.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/myapp/templates/layout.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
+        <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -32,20 +52,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Flask server.Assignment.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Flask server.Assignment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/PycharmProjects/Assignment/myapp/static/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\Assignment\myapp\static\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\Assignment\myapp" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Assignment" type="Python.FlaskServer">
       <module name="Assignment" />
@@ -55,7 +85,23 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Assignment" type="Python.FlaskServer">
+      <module name="Assignment" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -81,7 +127,77 @@
       <option name="presentableId" value="Default" />
       <updated>1729855468221</updated>
       <workItem from="1729855486073" duration="3864000" />
-      <workItem from="1729859408166" duration="8315000" />
+      <workItem from="1729859408166" duration="10450000" />
+      <workItem from="1729901158241" duration="113000" />
+      <workItem from="1729901451022" duration="2167000" />
+      <workItem from="1729903787170" duration="530000" />
+      <workItem from="1729905257987" duration="358000" />
+      <workItem from="1729948398901" duration="3779000" />
+      <workItem from="1729952629378" duration="3715000" />
+      <workItem from="1729957375504" duration="1739000" />
+      <workItem from="1729959713879" duration="2183000" />
+      <workItem from="1729969028526" duration="4000" />
+      <workItem from="1730055804171" duration="7846000" />
+      <workItem from="1730064301637" duration="195000" />
+      <workItem from="1730064527599" duration="3284000" />
+      <workItem from="1730068003525" duration="21000" />
+      <workItem from="1730068104526" duration="3387000" />
+      <workItem from="1730076911081" duration="3583000" />
+      <workItem from="1730113285680" duration="675000" />
+      <workItem from="1730138995462" duration="4695000" />
+      <workItem from="1730194922189" duration="67000" />
+      <workItem from="1730195401464" duration="1493000" />
+      <workItem from="1730214552232" duration="66000" />
+      <workItem from="1730219708077" duration="646000" />
+      <workItem from="1730220627414" duration="18000" />
+      <workItem from="1730220725364" duration="101000" />
+      <workItem from="1730314745030" duration="1722000" />
+      <workItem from="1730316743712" duration="5181000" />
+      <workItem from="1730322183118" duration="3330000" />
+      <workItem from="1730328480440" duration="45000" />
+      <workItem from="1730328634249" duration="346000" />
+      <workItem from="1730329571953" duration="27000" />
+      <workItem from="1730329783194" duration="174000" />
+      <workItem from="1730419946460" duration="631000" />
+      <workItem from="1730484758353" duration="5555000" />
+      <workItem from="1730530696858" duration="4165000" />
+      <workItem from="1730537440914" duration="1982000" />
+      <workItem from="1730539526709" duration="31000" />
+      <workItem from="1730541418667" duration="850000" />
+      <workItem from="1730570773669" duration="93000" />
+      <workItem from="1730806684019" duration="373000" />
+      <workItem from="1730807074901" duration="224000" />
+      <workItem from="1730851831512" duration="145000" />
+      <workItem from="1730852214779" duration="31000" />
+      <workItem from="1730852696977" duration="189000" />
+      <workItem from="1730852899224" duration="1533000" />
+      <workItem from="1730854557973" duration="454000" />
+      <workItem from="1730855044020" duration="1161000" />
+      <workItem from="1730889428889" duration="146000" />
+      <workItem from="1730889697037" duration="3425000" />
+      <workItem from="1731417380886" duration="110000" />
+      <workItem from="1731417602878" duration="916000" />
+      <workItem from="1731453916548" duration="11000" />
+      <workItem from="1731937898656" duration="857000" />
+      <workItem from="1731958206507" duration="1916000" />
+      <workItem from="1732013358611" duration="688000" />
+      <workItem from="1732031009097" duration="160000" />
+      <workItem from="1732031226186" duration="24000" />
+      <workItem from="1732031279003" duration="17000" />
+      <workItem from="1732031708806" duration="51000" />
+      <workItem from="1732034420705" duration="510000" />
+      <workItem from="1732040169768" duration="44000" />
+      <workItem from="1732138116720" duration="1600000" />
+      <workItem from="1732229001938" duration="85000" />
+      <workItem from="1732229171627" duration="408000" />
+      <workItem from="1732229653946" duration="1382000" />
+      <workItem from="1732235093722" duration="1642000" />
+      <workItem from="1732374302392" duration="80000" />
+      <workItem from="1732379445807" duration="481000" />
+      <workItem from="1732652394298" duration="158000" />
+      <workItem from="1732662303658" duration="46000" />
+      <workItem from="1732788865635" duration="2269000" />
+      <workItem from="1732807605271" duration="76000" />
     </task>
     <servers />
   </component>
@@ -89,6 +205,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Assignment$Assignment.coverage" NAME="Assignment Coverage Results" MODIFIED="1729865991240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Assignment$Assignment.coverage" NAME="Assignment Coverage Results" MODIFIED="1732790892581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
